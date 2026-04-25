@@ -1,0 +1,14 @@
+.\p02_remote_hal\stream_buffer.o: FreeRTOS\stream_buffer.c
+.\p02_remote_hal\stream_buffer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\p02_remote_hal\stream_buffer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/FreeRTOS.h
+.\p02_remote_hal\stream_buffer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/FreeRTOSConfig.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/projdefs.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/portable.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/deprecated_definitions.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/portable/portmacro.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/mpu_wrappers.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/task.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/list.h
+.\p02_remote_hal\stream_buffer.o: ./FreeRTOS/include/stream_buffer.h

@@ -46,3 +46,5 @@ p01_flight_hal\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 p01_flight_hal\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 p01_flight_hal\main.o: ./Interface/int_IP5305T.h
 p01_flight_hal\main.o: ./Interface/int_Motor.h
+p01_flight_hal\main.o: ./Interface/int_LED.h
+p01_flight_hal\main.o: ./common/Com_config.h

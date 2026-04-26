@@ -45,3 +45,5 @@ p01_flight_hal\app_freertos_task.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 p01_flight_hal\app_freertos_task.o: ./Interface/int_IP5305T.h
 p01_flight_hal\app_freertos_task.o: ./Interface/int_Motor.h
 p01_flight_hal\app_freertos_task.o: ../Core/Inc/tim.h
+p01_flight_hal\app_freertos_task.o: ./Interface/int_LED.h
+p01_flight_hal\app_freertos_task.o: ./common/Com_config.h

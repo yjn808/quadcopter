@@ -6,6 +6,8 @@
 #include "Com_debug.h"
 #include "int_IP5305T.h"
 #include "int_Motor.h"
+#include "int_LED.h"
+#include "Com_config.h"
 
 /**
  * @brief 初始化FreeRTOS任务

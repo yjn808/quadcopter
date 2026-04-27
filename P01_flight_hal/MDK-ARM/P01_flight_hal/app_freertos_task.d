@@ -37,6 +37,7 @@ p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1x
 p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 p01_flight_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
@@ -47,3 +48,5 @@ p01_flight_hal\app_freertos_task.o: ./Interface/int_Motor.h
 p01_flight_hal\app_freertos_task.o: ../Core/Inc/tim.h
 p01_flight_hal\app_freertos_task.o: ./Interface/int_LED.h
 p01_flight_hal\app_freertos_task.o: ./common/Com_config.h
+p01_flight_hal\app_freertos_task.o: ./Interface/int_SI24R1.h
+p01_flight_hal\app_freertos_task.o: ../Core/Inc/spi.h

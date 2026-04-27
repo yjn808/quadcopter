@@ -18,12 +18,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "spi.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "App_FreeRTOS_Task.h"
+#include "int_SI24R1.h"
 
 /* USER CODE END Includes */
 
@@ -67,7 +69,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  Int_SI24R1_Init();
   App_FreeRTOS_Task_Init();
 
   /* USER CODE END 1 */
@@ -91,8 +93,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-  DEBUG_PRINTF("Hello World!\n");
+  DEBUG_PRINTF("Hello Remote!\n");
 
   //启动FreeRTOS=>后续代码都不执行
 

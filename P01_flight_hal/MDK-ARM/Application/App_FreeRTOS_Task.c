@@ -1,5 +1,5 @@
 #include "App_FreeRTOS_Task.h"
-
+#include "int_SI24R1.h"
 
 
 //内存管理=>C语言中的结构体通常保存在堆中  不会回收 =>一个结构体循环使用
@@ -72,6 +72,13 @@ void LED_Task(void *pvParameters);
 TaskHandle_t led_taskHandle;
 #define LED_TASK_PERIOD 100
 
+//通讯任务
+void Communication_Task(void *pvParameters);
+#define COMMUNICATION_TASK_STACK_SIZE 128
+#define COMMUNICATION_TASK_PRIORITY 2
+TaskHandle_t communication_taskHandle;
+#define COMMUNICATION_TASK_PERIOD 6
+
 
 
 
@@ -86,10 +93,11 @@ void App_FreeRTOS_Task_Init(void)
     //3.创建LED灯控任务
     xTaskCreate(LED_Task,"LED_task",LED_TASK_STACK_SIZE,NULL,LED_TASK_PRIORITY,&led_taskHandle);
 
+    //4.创建通讯任务
+    xTaskCreate(Communication_Task,"communication_task",COMMUNICATION_TASK_STACK_SIZE,NULL,COMMUNICATION_TASK_PRIORITY,&communication_taskHandle);
 
 
-
-    //4.启动调度器
+    //5.启动调度器
     vTaskStartScheduler();
 
 
@@ -206,6 +214,25 @@ void LED_Task(void *pvParameters)
 
 
 
+uint8_t communication_buffer[TX_PLOAD_WIDTH]={0};
+void Communication_Task(void *pvParameters)
+{
+    TickType_t xLastWakeTime = xTaskGetTickCount();
+    while(1)
+    {
+        
+        //1.接收数据到缓冲区
+        uint8_t res=Int_SI24R1_RxPacket(communication_buffer);
+        if(res==0)
+        {
+            DEBUG_PRINTF("接收数据成功:%s\r\n",communication_buffer);
+        }
+        //6ms执行一次 接收数据的时间间隔=发送数据的时间间隔
+        vTaskDelayUntil(&xLastWakeTime,COMMUNICATION_TASK_PERIOD);
+
+    }
+
+}
 
 
 

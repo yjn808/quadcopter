@@ -25,7 +25,9 @@
 .\p02_remote_hal\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 .\p02_remote_hal\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 .\p02_remote_hal\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+.\p02_remote_hal\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 .\p02_remote_hal\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+.\p02_remote_hal\main.o: ../Core/Inc/spi.h
 .\p02_remote_hal\main.o: ../Core/Inc/usart.h
 .\p02_remote_hal\main.o: ../Core/Inc/gpio.h
 .\p02_remote_hal\main.o: ./Application/App_FreeRTOS_Task.h
@@ -41,4 +43,5 @@
 .\p02_remote_hal\main.o: ./common/Com_debug.h
 .\p02_remote_hal\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\p02_remote_hal\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\p02_remote_hal\main.o: .\Interface\int_IP5305T.h
+.\p02_remote_hal\main.o: ./Interface/int_IP5305T.h
+.\p02_remote_hal\main.o: ./Interface/int_SI24R1.h

@@ -3,6 +3,8 @@
 
 #include "spi.h"
 #include "Com_debug.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
 // STM32开发版需要使用SI24R1需要先到CUBEMX中配置SPI
 

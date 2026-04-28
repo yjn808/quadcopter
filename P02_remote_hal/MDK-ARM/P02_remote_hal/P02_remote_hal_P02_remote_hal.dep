@@ -1,10 +1,10 @@
 Dependencies for Project 'P02_remote_hal', Target 'P02_remote_hal': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
-F (startup_stm32f103xb.s)(0x69EF6959)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o .\p02_remote_hal\startup_stm32f103xb.o --depend .\p02_remote_hal\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x69EF69B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\main.o --omf_browse .\p02_remote_hal\main.crf --depend .\p02_remote_hal\main.d)
-I (../Core/Inc/main.h)(0x69EF6958)
+F (startup_stm32f103xb.s)(0x69F09D18)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o .\p02_remote_hal\startup_stm32f103xb.o --depend .\p02_remote_hal\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x69F09D17)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\main.o --omf_browse .\p02_remote_hal\main.crf --depend .\p02_remote_hal\main.d)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -24,15 +24,19 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+I (../Core/Inc/adc.h)(0x69F09D16)
+I (../Core/Inc/dma.h)(0x69F09D16)
 I (../Core/Inc/spi.h)(0x69EF6957)
 I (../Core/Inc/usart.h)(0x69EC72DA)
 I (../Core/Inc/gpio.h)(0x69EB3AF3)
-I (./Application/App_FreeRTOS_Task.h)(0x69ECB024)
+I (./Application/App_FreeRTOS_Task.h)(0x69F0C714)
 I (./FreeRTOS/include/FreeRTOS.h)(0x64020E50)
 I (./FreeRTOS/FreeRTOSConfig.h)(0x69EC6DE1)
 I (./FreeRTOS/include/projdefs.h)(0x64020E50)
@@ -46,12 +50,13 @@ I (./common/Com_debug.h)(0x69EC34E9)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (./Interface/int_IP5305T.h)(0x69ECAFE9)
-I (./Interface/int_SI24R1.h)(0x69EF64EC)
-F (../Core/Src/gpio.c)(0x69EF6957)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\gpio.o --omf_browse .\p02_remote_hal\gpio.crf --depend .\p02_remote_hal\gpio.d)
+I (./Interface/int_joystick.h)(0x69F09E79)
+I (./Interface/int_SI24R1.h)(0x69F07C8E)
+F (../Core/Src/gpio.c)(0x69F09D16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\gpio.o --omf_browse .\p02_remote_hal\gpio.crf --depend .\p02_remote_hal\gpio.d)
 I (../Core/Inc/gpio.h)(0x69EB3AF3)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -71,6 +76,70 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+F (../Core/Src/adc.c)(0x69F09D16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\adc.o --omf_browse .\p02_remote_hal\adc.crf --depend .\p02_remote_hal\adc.d)
+I (../Core/Inc/adc.h)(0x69F09D16)
+I (../Core/Inc/main.h)(0x69F052E1)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69E717FB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69E717F7)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+F (../Core/Src/dma.c)(0x69F09D16)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\dma.o --omf_browse .\p02_remote_hal\dma.crf --depend .\p02_remote_hal\dma.d)
+I (../Core/Inc/dma.h)(0x69F09D16)
+I (../Core/Inc/main.h)(0x69F052E1)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69E717FB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69E717F7)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -78,9 +147,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Core/Src/spi.c)(0x69EF6957)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\spi.o --omf_browse .\p02_remote_hal\spi.crf --depend .\p02_remote_hal\spi.d)
 I (../Core/Inc/spi.h)(0x69EF6957)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -100,6 +169,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -107,9 +178,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Core/Src/usart.c)(0x69EC72DA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\usart.o --omf_browse .\p02_remote_hal\usart.crf --depend .\p02_remote_hal\usart.d)
 I (../Core/Inc/usart.h)(0x69EC72DA)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -129,15 +200,17 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
-F (../Core/Src/stm32f1xx_it.c)(0x69EC3F30)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_it.o --omf_browse .\p02_remote_hal\stm32f1xx_it.crf --depend .\p02_remote_hal\stm32f1xx_it.d)
-I (../Core/Inc/main.h)(0x69EF6958)
+F (../Core/Src/stm32f1xx_it.c)(0x69F09D17)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_it.o --omf_browse .\p02_remote_hal\stm32f1xx_it.crf --depend .\p02_remote_hal\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -157,12 +230,14 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_it.h)(0x69EC3DFB)
+I (../Core/Inc/stm32f1xx_it.h)(0x69F09D17)
 I (./FreeRTOS/include/FreeRTOS.h)(0x64020E50)
 I (./FreeRTOS/FreeRTOSConfig.h)(0x69EC6DE1)
 I (./FreeRTOS/include/projdefs.h)(0x64020E50)
@@ -173,9 +248,9 @@ I (./FreeRTOS/include/mpu_wrappers.h)(0x64020E50)
 I (./FreeRTOS/include/task.h)(0x64020E50)
 I (./FreeRTOS/include/list.h)(0x64020E50)
 F (../Core/Src/stm32f1xx_hal_msp.c)(0x69EB3AF3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_msp.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_msp.crf --depend .\p02_remote_hal\stm32f1xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -195,6 +270,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -202,7 +279,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_gpio_ex.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_gpio_ex.crf --depend .\p02_remote_hal\stm32f1xx_hal_gpio_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -222,14 +299,16 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_spi.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_spi.crf --depend .\p02_remote_hal\stm32f1xx_hal_spi.d)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_adc.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_adc.crf --depend .\p02_remote_hal\stm32f1xx_hal_adc.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -249,6 +328,37 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_adc_ex.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_adc_ex.crf --depend .\p02_remote_hal\stm32f1xx_hal_adc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69E717FB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69E717F7)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -256,7 +366,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal.o --omf_browse .\p02_remote_hal\stm32f1xx_hal.crf --depend .\p02_remote_hal\stm32f1xx_hal.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -276,6 +386,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -283,7 +395,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_rcc.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_rcc.crf --depend .\p02_remote_hal\stm32f1xx_hal_rcc.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -303,6 +415,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -310,7 +424,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_rcc_ex.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_rcc_ex.crf --depend .\p02_remote_hal\stm32f1xx_hal_rcc_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -330,6 +444,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -337,7 +453,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_gpio.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_gpio.crf --depend .\p02_remote_hal\stm32f1xx_hal_gpio.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -357,6 +473,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -364,7 +482,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_dma.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_dma.crf --depend .\p02_remote_hal\stm32f1xx_hal_dma.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -384,6 +502,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -391,7 +511,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_cortex.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_cortex.crf --depend .\p02_remote_hal\stm32f1xx_hal_cortex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -411,6 +531,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -418,7 +540,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_pwr.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_pwr.crf --depend .\p02_remote_hal\stm32f1xx_hal_pwr.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -438,6 +560,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -445,7 +569,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_flash.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_flash.crf --depend .\p02_remote_hal\stm32f1xx_hal_flash.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -465,6 +589,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -472,7 +598,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_flash_ex.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_flash_ex.crf --depend .\p02_remote_hal\stm32f1xx_hal_flash_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -492,6 +618,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -499,7 +627,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_exti.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_exti.crf --depend .\p02_remote_hal\stm32f1xx_hal_exti.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -519,6 +647,37 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_spi.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_spi.crf --depend .\p02_remote_hal\stm32f1xx_hal_spi.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69E717FB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69E717F7)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -526,7 +685,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x69E717FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\stm32f1xx_hal_uart.o --omf_browse .\p02_remote_hal\stm32f1xx_hal_uart.crf --depend .\p02_remote_hal\stm32f1xx_hal_uart.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -546,6 +705,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -561,7 +722,7 @@ I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
 I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
@@ -573,6 +734,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -581,9 +744,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 F (.\common\Com_debug.c)(0x69EC7A2E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\com_debug.o --omf_browse .\p02_remote_hal\com_debug.crf --depend .\p02_remote_hal\com_debug.d)
 I (common\Com_debug.h)(0x69EC34E9)
 I (../Core/Inc/usart.h)(0x69EC72DA)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -603,6 +766,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -757,8 +922,8 @@ I (./FreeRTOS/include/mpu_wrappers.h)(0x64020E50)
 I (./FreeRTOS/include/task.h)(0x64020E50)
 I (./FreeRTOS/include/list.h)(0x64020E50)
 F (.\FreeRTOS\portable\portmacro.h)(0x64020E50)()
-F (.\Application\App_FreeRTOS_Task.c)(0x69EF6DDC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\app_freertos_task.o --omf_browse .\p02_remote_hal\app_freertos_task.crf --depend .\p02_remote_hal\app_freertos_task.d)
-I (Application\App_FreeRTOS_Task.h)(0x69ECB024)
+F (.\Application\App_FreeRTOS_Task.c)(0x69F0CA1D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\app_freertos_task.o --omf_browse .\p02_remote_hal\app_freertos_task.crf --depend .\p02_remote_hal\app_freertos_task.d)
+I (Application\App_FreeRTOS_Task.h)(0x69F0C714)
 I (./FreeRTOS/include/FreeRTOS.h)(0x64020E50)
 I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
@@ -772,9 +937,9 @@ I (./FreeRTOS/include/task.h)(0x64020E50)
 I (./FreeRTOS/include/list.h)(0x64020E50)
 I (./common/Com_debug.h)(0x69EC34E9)
 I (../Core/Inc/usart.h)(0x69EC72DA)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -792,6 +957,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -800,14 +967,17 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
 I (./Interface/int_IP5305T.h)(0x69ECAFE9)
-I (./Interface/int_SI24R1.h)(0x69EF64EC)
+I (./Interface/int_joystick.h)(0x69F09E79)
+I (../Core/Inc/adc.h)(0x69F09D16)
+I (./Interface/int_SI24R1.h)(0x69F07C8E)
 I (../Core/Inc/spi.h)(0x69EF6957)
-F (.\Application\App_FreeRTOS_Task.h)(0x69ECB024)()
+I (./Interface/int_key.h)(0x69F07E47)
+F (.\Application\App_FreeRTOS_Task.h)(0x69F0C714)()
 F (.\Interface\int_IP5305T.c)(0x69ECAC77)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\int_ip5305t.o --omf_browse .\p02_remote_hal\int_ip5305t.crf --depend .\p02_remote_hal\int_ip5305t.d)
 I (Interface\int_IP5305T.h)(0x69ECAFE9)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -827,6 +997,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -842,12 +1014,12 @@ I (./FreeRTOS/include/mpu_wrappers.h)(0x64020E50)
 I (./FreeRTOS/include/task.h)(0x64020E50)
 I (./FreeRTOS/include/list.h)(0x64020E50)
 F (.\Interface\int_IP5305T.h)(0x69ECAFE9)()
-F (.\Interface\int_SI24R1.c)(0x69EF6D52)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\int_si24r1.o --omf_browse .\p02_remote_hal\int_si24r1.crf --depend .\p02_remote_hal\int_si24r1.d)
-I (Interface\int_SI24R1.h)(0x69EF64EC)
+F (.\Interface\int_SI24R1.c)(0x69F07CD1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\int_si24r1.o --omf_browse .\p02_remote_hal\int_si24r1.crf --depend .\p02_remote_hal\int_si24r1.d)
+I (Interface\int_SI24R1.h)(0x69F07C8E)
 I (../Core/Inc/spi.h)(0x69EF6957)
-I (../Core/Inc/main.h)(0x69EF6958)
+I (../Core/Inc/main.h)(0x69F052E1)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69EF6958)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
@@ -867,6 +1039,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
@@ -876,4 +1050,96 @@ I (./common/Com_debug.h)(0x69EC34E9)
 I (../Core/Inc/usart.h)(0x69EC72DA)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
-F (.\Interface\int_SI24R1.h)(0x69EF64EC)()
+I (./FreeRTOS/include/FreeRTOS.h)(0x64020E50)
+I (./FreeRTOS/FreeRTOSConfig.h)(0x69EC6DE1)
+I (./FreeRTOS/include/projdefs.h)(0x64020E50)
+I (./FreeRTOS/include/portable.h)(0x64020E50)
+I (./FreeRTOS/include/deprecated_definitions.h)(0x64020E50)
+I (./FreeRTOS/portable/portmacro.h)(0x64020E50)
+I (./FreeRTOS/include/mpu_wrappers.h)(0x64020E50)
+I (./FreeRTOS/include/task.h)(0x64020E50)
+I (./FreeRTOS/include/list.h)(0x64020E50)
+F (.\Interface\int_SI24R1.h)(0x69F07C8E)()
+F (.\Interface\int_key.c)(0x69F08208)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\int_key.o --omf_browse .\p02_remote_hal\int_key.crf --depend .\p02_remote_hal\int_key.d)
+I (Interface\int_key.h)(0x69F07E47)
+I (../Core/Inc/main.h)(0x69F052E1)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69E717FB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69E717F7)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+I (./FreeRTOS/include/FreeRTOS.h)(0x64020E50)
+I (./FreeRTOS/FreeRTOSConfig.h)(0x69EC6DE1)
+I (./FreeRTOS/include/projdefs.h)(0x64020E50)
+I (./FreeRTOS/include/portable.h)(0x64020E50)
+I (./FreeRTOS/include/deprecated_definitions.h)(0x64020E50)
+I (./FreeRTOS/portable/portmacro.h)(0x64020E50)
+I (./FreeRTOS/include/mpu_wrappers.h)(0x64020E50)
+I (./FreeRTOS/include/task.h)(0x64020E50)
+I (./FreeRTOS/include/list.h)(0x64020E50)
+F (.\Interface\int_key.h)(0x69F07E47)()
+F (.\Interface\int_joystick.c)(0x69F09FCC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ./common -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable -I ./Application -I ./Interface-I.\RTE\_P02_remote_hal-ID:\Users\yjn\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include-ID:\Users\yjn\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o .\p02_remote_hal\int_joystick.o --omf_browse .\p02_remote_hal\int_joystick.crf --depend .\p02_remote_hal\int_joystick.d)
+I (Interface\int_joystick.h)(0x69F09E79)
+I (../Core/Inc/adc.h)(0x69F09D16)
+I (../Core/Inc/main.h)(0x69F052E1)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69E717FB)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69F09D17)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69E717FB)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x69E717FB)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x69E717F7)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69E717F7)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69E717F7)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69E717FB)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x69E717FB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69E717FB)
+I (./FreeRTOS/include/FreeRTOS.h)(0x64020E50)
+I (./FreeRTOS/FreeRTOSConfig.h)(0x69EC6DE1)
+I (./FreeRTOS/include/projdefs.h)(0x64020E50)
+I (./FreeRTOS/include/portable.h)(0x64020E50)
+I (./FreeRTOS/include/deprecated_definitions.h)(0x64020E50)
+I (./FreeRTOS/portable/portmacro.h)(0x64020E50)
+I (./FreeRTOS/include/mpu_wrappers.h)(0x64020E50)
+I (./FreeRTOS/include/task.h)(0x64020E50)
+I (./FreeRTOS/include/list.h)(0x64020E50)
+F (.\Interface\int_joystick.h)(0x69F09E79)()

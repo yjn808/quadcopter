@@ -1,5 +1,13 @@
 #include "App_FreeRTOS_Task.h"
 #include "int_SI24R1.h"
+#include "int_key.h"
+
+
+//遥杆数据结构体
+Joystick_t joystick={0,0,0,0}; 
+
+
+
 //STM32F103C8T6的SRAM为20KB=>分配12K（configTOTAL_HEAP_SIZE）给操作系统
 
 //最小推荐值128=>128*4=512字节
@@ -11,6 +19,23 @@
 TaskHandle_t power_taskHandle;
 void Power_Task(void *pvParameters);
 #define POWER_TASK_PERIOD 10000
+
+
+
+
+//按键任务、
+void key_Task(void *pvParameters);
+#define KEY_TASK_STACK_SIZE 128
+#define KEY_TASK_PRIORITY 2
+TaskHandle_t key_task_handle;
+#define KEY_TASK_PERIOD 20
+
+//摇杆任务
+void joystick_Task(void *pvParameters);
+#define JOYSTICK_TASK_STACK_SIZE 128
+#define JOYSTICK_TASK_PRIORITY 2
+TaskHandle_t joystick_task_handle;
+#define JOYSTICK_TASK_PERIOD 20
 
 
 
@@ -27,6 +52,7 @@ TaskHandle_t com_task_handle;
 
 
 
+
 void App_FreeRTOS_Task_Init(void)
 {
     //1.创建电源管理任务
@@ -35,7 +61,11 @@ void App_FreeRTOS_Task_Init(void)
     //2.创建通讯任务
     xTaskCreate(Com_Task,"Com_task",COM_TASK_STACK_SIZE,NULL,COM_TASK_PRIORITY,&com_task_handle);
 
+    //按键任务
+    xTaskCreate(key_Task,"key_task",KEY_TASK_STACK_SIZE,NULL,KEY_TASK_PRIORITY,&key_task_handle);
 
+    //摇杆任务
+    xTaskCreate(joystick_Task,"joystick_task",JOYSTICK_TASK_STACK_SIZE,NULL,JOYSTICK_TASK_PRIORITY,&joystick_task_handle);
 
     //3.启动调度器
     vTaskStartScheduler();
@@ -62,6 +92,46 @@ void Power_Task(void *pvParameters)
     }
 }
 
+
+void key_Task(void *pvParameters)
+{
+    TickType_t xLastWakeTime=xTaskGetTickCount();
+    while(1)
+    {
+        Key_Type key=Int_Key_get();
+        if(key != KEY_NONE)
+        {
+            DEBUG_PRINTF("key=%d\n",key);
+        }
+
+
+        vTaskDelayUntil(&xLastWakeTime,KEY_TASK_PERIOD);
+    }
+}
+
+
+void joystick_Task(void *pvParameters)
+{
+    TickType_t xLastWakeTime=xTaskGetTickCount();
+    //1.初始化摇杆
+    Int_Joystick_Init();
+    while(1)
+    {
+        //1.获取摇杆的值
+        Int_Joystick_Get(&joystick);
+        //2.打印摇杆的值
+        DEBUG_PRINTF("joystick=%d,%d,%d,%d\n",joystick.thr,joystick.yaw,joystick.pitch,joystick.roll);
+
+
+
+        vTaskDelayUntil(&xLastWakeTime,KEY_TASK_PERIOD);
+    }
+
+}
+
+
+
+
 uint8_t com_buff[TX_PLOAD_WIDTH]={0};
 void Com_Task(void *pvParameters)
 {
@@ -84,6 +154,7 @@ void Com_Task(void *pvParameters)
         vTaskDelayUntil(&xLastWakeTime,COM_TASK_PERIOD);
     }
 }
+
 
 
 

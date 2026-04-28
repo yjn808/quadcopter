@@ -189,6 +189,7 @@ uint8_t Int_SI24R1_TxPacket(uint8_t *txbuf)
 	while(((state & TX_DS) == 0) && ((state & MAX_RT) == 0))
 	{
 		state = Int_SI24R1_READ_REG(STATUS);
+		vTaskDelay(1);
 	}   
 	Int_SI24R1_WRITE_REG(SI24R1_WRITE_REG+STATUS, state); 								//清除TX_DS或MAX_RT中断标志
 	if(state&MAX_RT)																	//达到最大重发次数

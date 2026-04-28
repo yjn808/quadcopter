@@ -34,6 +34,8 @@
 .\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
 .\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
 .\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+.\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+.\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
 .\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 .\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 .\p02_remote_hal\app_freertos_task.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
@@ -42,5 +44,8 @@
 .\p02_remote_hal\app_freertos_task.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\p02_remote_hal\app_freertos_task.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\p02_remote_hal\app_freertos_task.o: ./Interface/int_IP5305T.h
+.\p02_remote_hal\app_freertos_task.o: ./Interface/int_joystick.h
+.\p02_remote_hal\app_freertos_task.o: ../Core/Inc/adc.h
 .\p02_remote_hal\app_freertos_task.o: ./Interface/int_SI24R1.h
 .\p02_remote_hal\app_freertos_task.o: ../Core/Inc/spi.h
+.\p02_remote_hal\app_freertos_task.o: ./Interface/int_key.h

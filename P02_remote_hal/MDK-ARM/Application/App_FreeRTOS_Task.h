@@ -5,6 +5,7 @@
 #include "task.h"
 #include "Com_debug.h"
 #include "int_IP5305T.h"
+#include "int_joystick.h"
 
 /**
  * @brief 初始化FreeRTOS任务
